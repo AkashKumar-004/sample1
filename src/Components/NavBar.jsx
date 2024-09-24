@@ -54,16 +54,16 @@ const NavBar=()=>{
         {
       visible && (
         <>
-          <div className="h-screen w-screen flex items-center absolute justify-center z-40 bg-black/30">
-            <div className="h-[50%] w-[25%] flex z-50 bg-black/40 flex-col rounded-md">
-            <div className="h-[10%] flex items-end justify-end w-[95%]"><Minus className="border-2 border-black rounded-xl size-6 bg-slate-300/15" onClick={()=>{setvisible(!visible)}}/></div>
+          <div className="h-screen w-screen flex items-center absolute justify-center z-40 bg-black/60">
+            <div className="h-[50%] w-[25%] flex z-50 bg-black/90 flex-col rounded-md">
+            <div className="h-[10%] flex items-end justify-end w-[95%]"><Minus className="border-2 border-black rounded-xl size-6 bg-white" onClick={()=>{setvisible(!visible)}}/></div>
                       <form action="submit" className="gap-5 flex justify-center items-center flex-col h-[80%] w-full" onSubmit={handle} >
-                          <div className="flex text-white/70 text-2xl">Login</div>
-                            <input type="text" ref={nameref} placeholder='name' className=' p-3 text-black  bg-white/50 rounded-md w-[50%] shadow-lg outline-none active:outline-none ' />
-                            <input type="name" ref={emailref} placeholder='email' className=' p-3 text-black bg-white/50 rounded-md  w-[50%] shadow-lg outline-none ' />
-                            <input type="phone" ref={passwordref} placeholder='phone' className='  p-3 text-black bg-white/50 rounded-md w-[50%] shadow-lg outline-none ' />
-                            <div className="flex items-center justify-center flex-row gap-6 w-full"><button className=' text-black bg-white/50 w-[20%] shadow-xl rounded-sm' type="submit">submit</button>
-                            <button className=' text-black bg-white/50 w-[20%] shadow-xl rounded-sm' type="submit">Lagout</button>
+                          <div className="flex text-white text-2xl">Login</div>
+                            <input type="text" ref={nameref} placeholder='name' className=' p-3 text-black  bg-white rounded-md w-[50%] shadow-lg outline-none active:outline-none ' />
+                            <input type="name" ref={emailref} placeholder='email' className=' p-3 text-black bg-white rounded-md  w-[50%] shadow-lg outline-none ' />
+                            <input type="phone" ref={passwordref} placeholder='phone' className='  p-3 text-black bg-white rounded-md w-[50%] shadow-lg outline-none ' />
+                            <div className="flex items-center justify-center flex-row gap-6 w-full"><button className=' text-black bg-white w-[20%] shadow-xl rounded-sm' type="submit">submit</button>
+                            <button className=' text-black bg-white w-[20%] shadow-xl rounded-sm' type="submit">Lagout</button>
                             </div>
                           </form> 
             </div>

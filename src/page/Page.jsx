@@ -3,13 +3,13 @@ import Cat from '../assets/img/cat.png'
 const Page=()=>{
     return(
         <>
-        <div className="h-screen w-screen flex flex-row">
+        <div className="h-screen w-screen flex flex-row bg-black/90">
             <div className="h-[100vh] w-[40%] flex items-center justify-end bg-white/5">
-                <div className="h-[80%] w-[90%] flex items-center justify-center shadow-md shadow-black/15"><img src={Cat}></img></div>
+                <div className="h-[80%] w-[90%] flex items-center justify-center shadow-md shadow-black/15 bg-white/10"><img src={Cat}></img></div>
             </div>
-            <div className="h-[100%] w-[60%] flex flex-row bg-white/5 items-center justify-start">
-                    <div className="h-[100%] w-[90%] flex flex-row items-center justify-center bg-white/5">
-                        <div className="w-[100%] h-[80%] flex gap-8 flex-col shadow-md shadow-black/15">
+            <div className="h-[100%] w-[60%] flex flex-row bg-white/5 items-center justify-start text-white/80">
+                    <div className="h-[100%] w-[90%] flex flex-row items-center justify-center ">
+                        <div className="w-[100%] h-[80%] flex gap-8 flex-col shadow-md shadow-black/15 bg-white/10">
                             <div className=" h-[20%] w-[100%] flex justify-center items-center ">
                                     <div className="w-[80%] h-[50%] flex justify-start items-start flex-col font-bold text-2xl">AKASH KUMAR S</div>
                             </div>
